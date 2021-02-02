@@ -1,0 +1,7 @@
+name: CashFlowForecast
+path: target\cashflowforecast-0.0.1-SNAPSHOT.jar
+memory: 1G
+buildpack: java_buildpack
+stack: cflinuxfs3
+services: 
+  - "postgressqldb"
